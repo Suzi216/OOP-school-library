@@ -95,7 +95,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/frnega/OOP-school-library
+git clone https://github.com/Suzi216/OOP-school-library
 
 OOP-school-library.git
 
