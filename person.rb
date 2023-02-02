@@ -6,7 +6,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
-    @rentals=[]
+    @rentals = []
   end
 
   attr_accessor :name, :age, :rentals
@@ -27,7 +27,7 @@ class Person < Nameable
   def add_rental(date, person)
     @rentals.push(Rental.new(date, self, person))
   end
-  
+
   def correct_name
     @name
   end
