@@ -27,11 +27,12 @@ class Main
     when '4' 
       app.create_book
     when '5' 
-      puts 'listbend'
+      app.create_rental
     when '6' 
-      puts 'listbend'
+      app.show_rental
     when '7' 
-      puts 'listbend'
+      puts puts "Thank you for using this app!\n\n"
+      break
     else puts 'Incorrect choice, Please choose between 1 and 7'
     end
   end
