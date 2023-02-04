@@ -32,7 +32,7 @@ class App
     print 'ID of person: '
     id = gets.chomp.to_i
     puts 'Rentals:'
-    @rental.each { |rent| puts " Date: #{rent.date}mBook: #{rent.book.title} " if rent.person.id == id }
+    @rental.each { |rent| puts " Date: #{rent.date} Book: #{rent.book.title} " if rent.person.id == id }
   end
 
   def create_rental
